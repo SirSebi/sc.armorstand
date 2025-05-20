@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "armorstandmod",
+  "version": "${version}",
+  "name": "Armor Stand Mod",
+  "description": "A mod that spawns armor stands when wearing custom chestplates",
+  "authors": [
+    "SeasonCraft"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/armorstandmod/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "com.seasoncraft.armorstandmod.ArmorStandMod"
+    ]
+  },
+  "mixins": [
+    "mixins.armorstandmod.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "fabric-api": "*",
+    "minecraft": "~1.21.4"
+  }
+} 
